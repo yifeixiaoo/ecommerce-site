@@ -18,6 +18,10 @@ export const Cart = () => {
                     }
                 })}
             </div>
+            <div className="checkout">
+                <p> Subtotal: $</p>
+                <button> Continue Shopping </button>
+            </div>
         </div>
       );
 };
