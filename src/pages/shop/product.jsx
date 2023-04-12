@@ -20,7 +20,7 @@ export const Product = (props) => {
         //         Add To Cart {cartItemAmount > 0 && <>({cartItemAmount})</>}
         //     </button>
         // </div>
-        <div key={id} className="product normal">
+        <div key={id} className="product">
             <Link
                 onClick={() => window.top(0, 0)}
                 to={`/shop/product/${id}`}

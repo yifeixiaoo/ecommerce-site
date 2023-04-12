@@ -18,6 +18,8 @@
   }
    */
 
+/* shopCover */
+
 .shopCover img{
   max-width: 100%;
   margin: 0 auto;
@@ -32,6 +34,8 @@
   top: 8%;
   padding: 20px;
 }
+
+/* individual product shop tile */
 
 .product {
     outline: 2px solid rgba(0, 0, 0, .205);
@@ -59,12 +63,25 @@
     margin-top: 1.4rem;
 }
 
+.solid {
+  border-top: 3px solid #bbb;
+}
+
+/* shop grid */
+
 .products {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2rem;
-    padding-top: 5rem;
+    padding-top: 2rem;
 }
+
+
+.filter-btns .all {
+  border: 2px solid green;
+}
+
+/* page width transitions */
 
 @media (max-width:750px) {
   .products {

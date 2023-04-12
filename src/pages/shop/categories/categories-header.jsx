@@ -4,25 +4,25 @@ import "./categories-header.css"
 
 export const CategoriesHeader = () => {
     return <div className="filter-btns">
-        <Link to="">
-            <button>All</button>
+        <Link to="/shop">
+            <button className="all">All</button>
         </Link>
-        <Link to="living">
+        <Link to="/shop/living">
             <button> Living </button>
         </Link>
-        <Link to="bed">
+        <Link to="/shop/bed">
             <button> Bed </button>
         </Link>
-        <Link to="bath">
+        <Link to="/shop/bath">
             <button> Bath </button>
         </Link>
-        <Link to="kitchen">
+        <Link to="/shop/kitchen">
             <button> Kitchen </button>
         </Link>
-        <Link to="lighting">
+        <Link to="/shop/lighting">
             <button> Lighting </button>
         </Link>
-        <Link to="seating">
+        <Link to="/shop/seating">
             <button>
                 Seating
             </button>

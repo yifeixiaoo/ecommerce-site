@@ -8,10 +8,12 @@ import product7 from "./images/products/7.webp"
 import product8 from "./images/products/8.webp"
 
 export const PRODUCT_CATEGORY = {
-  electronics: "electronics",
-  clothing: "clothing",
+  living: "living",
+  bed: "bed",
+  bath: "bath",
+  kitchen: "kitchen",
   lighting: "lighting",
-  hats: "hats"
+  seating: "seating",
 }
 
 export const PRODUCTS = [

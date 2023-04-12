@@ -1,12 +1,13 @@
 import React from "react";
-import { PRODUCTS } from "../../products";
-import { Product } from "./product";
-import { Link } from "react-router-dom";
-import { CategoriesHeader } from "./categories/categories-header";
-import "./shop.css"
-import shopCover from "../../images/banner/shop-banner.avif"
+import { PRODUCTS } from "../../../products";
+import { Product } from "../product";
+import { CategoriesHeader } from "./categories-header";
+import "../shop.css"
+import shopCover from "../../../images/banner/shop-banner.avif"
+import { PRODUCT_CATEGORY } from "../../../products";
 
-export const Shop = () => {
+export const Lighting = () => {
+    const filteredProducts = PRODUCTS.filter((product) => product.productCategory === PRODUCT_CATEGORY.lighting);
     return <div className="shop">
         <div className="container">
             <div className="shopCover">
@@ -18,7 +19,7 @@ export const Shop = () => {
             <CategoriesHeader />
             <hr className="solid"></hr>
             <div className="products">
-                {PRODUCTS.map((product) => (
+                {filteredProducts.map((product) => (
                     <Product data={product} />
                 ))}
             </div>
