@@ -8,6 +8,10 @@ import { ShopContextProvider } from './context/shop-context';
 import { ProductPage } from './pages/productPage/productPage';
 import { Lighting } from './pages/shop/categories/lighting';
 import { Living } from './pages/shop/categories/living';
+import { Bed } from './pages/shop/categories/bed';
+import { Bath } from './pages/shop/categories/bath';
+import { Kitchen } from './pages/shop/categories/kitchen';
+import { Seating } from './pages/shop/categories/seating';
 
 function App() {
   return (
@@ -19,11 +23,11 @@ function App() {
             <Route path = "/" element={<Home />}/>
             <Route path = "/shop" element={<Shop />}/>
             <Route path = "/shop/living" element={<Living />}/>
-            <Route path = "/shop/bed" element={<Lighting />}/>
-            <Route path = "/shop/bath" element={<Lighting />}/>
-            <Route path = "/shop/kitchen" element={<Lighting />}/>
+            <Route path = "/shop/bed" element={<Bed />}/>
+            <Route path = "/shop/bath" element={<Bath />}/>
+            <Route path = "/shop/kitchen" element={<Kitchen />}/>
             <Route path = "/shop/lighting" element={<Lighting />}/>
-            <Route path = "/shop/seating" element={<Lighting />}/>
+            <Route path = "/shop/seating" element={<Seating />}/>
             <Route path = "/shop/product/:id" element={<ProductPage />}></Route>
             <Route path = "/cart" element={<Cart />}/>
           </Routes>
