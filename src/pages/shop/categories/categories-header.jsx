@@ -8,22 +8,22 @@ export const CategoriesHeader = () => {
             <button className="all">All</button>
         </Link>
         <Link to="/shop/living">
-            <button> Living </button>
+            <button className="living"> Living </button>
         </Link>
         <Link to="/shop/bed">
-            <button> Bed </button>
+            <button className="bed"> Bed </button>
         </Link>
         <Link to="/shop/bath">
-            <button> Bath </button>
+            <button className="bath"> Bath </button>
         </Link>
         <Link to="/shop/kitchen">
-            <button> Kitchen </button>
+            <button className="kitchen"> Kitchen </button>
         </Link>
         <Link to="/shop/lighting">
-            <button> Lighting </button>
+            <button className="lighting"> Lighting </button>
         </Link>
         <Link to="/shop/seating">
-            <button>
+            <button className="seating">
                 Seating
             </button>
         </Link>
