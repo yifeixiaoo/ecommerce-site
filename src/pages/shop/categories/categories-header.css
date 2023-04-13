@@ -25,11 +25,19 @@
     padding-bottom: 2rem;
 }
 
-.filter-btns button {
+.untoggled {
     padding: .6rem 1.6rem;
     cursor: pointer;
     background-color: transparent;
     border: 2px solid rgba(0, 0, 0, 0.3);
+    transition: all 0.2s;
+}
+
+.toggled {
+    padding: .6rem 1.6rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid green;
     transition: all 0.2s;
 }
 

@@ -1,9 +1,32 @@
-import React from "react";
+import React, { useContext, useState } from "react";
 import "./productPage.css"
 import img1 from "../../images/products/1.png"
+import { useParams } from "react-router-dom";
+import { PRODUCTS } from "../../products";
+import { ShopContext } from "../../context/shop-context";
 
 
 export const ProductPage = () => {
+    const { id } = useParams();
+    const product = PRODUCTS.find((product) => product.id === parseInt(id));
+    
+    const [quantity, setQuantity] = useState(1);
+
+    function increaseQuantity() {
+        if (quantity >= 1) {
+            setQuantity(quantity + 1);
+        }
+    }
+
+    function decreaseQuantity() {
+        if (quantity > 1) {
+            setQuantity(quantity - 1);
+        }
+    }
+
+    const { cartItems, addToCart } = useContext(ShopContext)
+
+    const cartItemAmount = cartItems[id]
     return (
         <>
             <div className="product-page-div">
@@ -11,25 +34,23 @@ export const ProductPage = () => {
                     <div className="product-div">
                         <div className="product-left">
                             <div className="big-img">
-                                <img src={img1} alt="product" />
+                                <img src={product.productImage} alt="product" />
                             </div>
                         </div>
                         <div className="product-right">
-                            <h3 className="product-big-name">product spec</h3>
+                            <h3 className="product-big-name"> {product.productName} </h3>
                             <div className="product-quant">
                                 <p>Quantity</p>
                                 <div className="product-btns">
-                                    <button>-</button>
-                                    <p className="quantity"> 1 </p>
-                                    <button>+</button>
+                                    <button onClick={decreaseQuantity}>-</button>
+                                    <p className="quantity"> {quantity} </p>
+                                    <button onClick={increaseQuantity}>+</button>
                                 </div>
-                                <p className="product-price"> price </p>
+                                <p className="product-price"> ${product.price * quantity} </p>
                             </div>
                             <div className="atc-buy">
-                                <button
-                                    className="atc-btn"
-                                >
-                                    add to cart
+                                <button className="atc-btn" onClick={() => addToCart(id, quantity)}>
+                                    add to cart {cartItemAmount > 0 && <>({cartItemAmount})</>}
                                 </button>
                                 <button className="buy-btn">buy now</button>
                             </div>
