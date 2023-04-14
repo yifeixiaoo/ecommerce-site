@@ -4,17 +4,12 @@ import { Product } from "./product";
 import { Link } from "react-router-dom";
 import { CategoriesHeader } from "./categories/categories-header";
 import "./shop.css"
-import shopCover from "../../images/banner/shop-banner.avif"
+import { ShopCover } from "./shopCover";
 
 export const Shop = () => {
     return <div className="shop">
         <div className="container">
-            <div className="shopCover">
-                <img src={shopCover} />
-                <div className="shopTitle">
-                    <h1> Minimal Living </h1>
-                </div>
-            </div>
+            <ShopCover />
             <CategoriesHeader />
             <hr className="solid"></hr>
             <div className="products">

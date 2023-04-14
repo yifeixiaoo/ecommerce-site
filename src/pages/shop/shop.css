@@ -19,20 +19,28 @@
    */
 
 /* shopCover */
+.shopCover {
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
 
 .shopCover img{
-  max-width: 100%;
-  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  max-height: 300px;
   object-fit: cover;
+  object-position: 50% 50%;
 }
 
 .shopCover .shopTitle {
-  /* margin-top: 20px;
-  text-align: center; */
-  font-size: 40px;
   position: absolute;
-  top: 8%;
-  padding: 20px;
+    bottom: 2rem;
+    left: 2rem;
+    color: white;
+    font-size: 3.8rem;
+    font-weight: 600;
 }
 
 /* individual product shop tile */
