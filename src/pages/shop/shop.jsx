@@ -1,7 +1,6 @@
 import React from "react";
 import { PRODUCTS } from "../../products";
 import { Product } from "./product";
-import { Link } from "react-router-dom";
 import { CategoriesHeader } from "./categories/categories-header";
 import "./shop.css"
 import { ShopCover } from "./shopCover";

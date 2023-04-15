@@ -18,94 +18,104 @@
   }
    */
 
-/* shopCover */
-.shopCover {
-  overflow: hidden;
-  position: relative;
-  cursor: pointer;
-}
+  /* shopCover */
+  .shopCover {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+  }
 
 
-.shopCover img{
-  height: 100%;
-  width: 100%;
-  max-height: 300px;
-  object-fit: cover;
-  object-position: 50% 50%;
-}
+  .shopCover img {
+    height: 100%;
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
 
-.shopCover .shopTitle {
-  position: absolute;
+  .shopCover .shopTitle {
+    position: absolute;
     bottom: 2rem;
     left: 2rem;
     color: white;
     font-size: 3.8rem;
     font-weight: 600;
-}
+  }
 
-/* individual product shop tile */
+  /* individual product shop tile */
 
-.product {
+  .product {
     outline: 2px solid rgba(0, 0, 0, .205);
     outline-offset: -2px;
     transition: all 0.15s ease-in;
     cursor: pointer;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 300px;
+  }
 
-.product:hover {
+  .product:hover {
     outline: 2px solid rgba(0, 0, 0, .7);
-}
+  }
 
-.product-header img {
+  .product-header img {
     width: 100%;
-}
+    max-height: 500px;
+  }
 
-.product-details {
+  .product-details {
     font-size: 1.7rem;
     padding: 1rem;
-}
+    bottom: 0;
+    position:absolute;
+    text-align: left;
+  }
 
-.item-price {
+  .item-price {
     font-weight: 600;
     font-size: 2.2rem;
     margin-top: 1.4rem;
-}
+  }
 
-/* separator */
+  /* separator */
 
-.solid {
-  border-top: 3px solid #bbb;
-}
+  .solid {
+    border-top: 3px solid #bbb;
+  }
 
-/* shop grid */
+  /* shop grid */
 
-.products {
+  .products {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2rem;
     padding-top: 2rem;
-}
+  }
 
-/* page width transitions */
+  /* page width transitions */
 
-@media (max-width:750px) {
-  .products {
+  @media (max-width:750px) {
+    .products {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       gap: 2rem;
+    }
   }
-}
 
-@media (max-width:600px) {
-  .products {
+  @media (max-width:600px) {
+    .products {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 2rem;
+    }
   }
-}
 
-@media (max-width:430px) {
-  .products {
+  @media (max-width:430px) {
+    .products {
       grid-template-columns: 1fr;
+    }
   }
-}

@@ -23,7 +23,7 @@ export const Home = () => {
                   <Link to="/">
                     <div id="img2" className="lil-overlay"></div>
                     <img src={kitchen} alt="img2" />
-                    <p className="main-description">Kitchen</p>
+                    <p className="main-description">Dining</p>
                   </Link>
                 </div>
                 <div className="featured grid-four">

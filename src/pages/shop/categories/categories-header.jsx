@@ -35,8 +35,8 @@ export const CategoriesHeader = () => {
         <Link to="/shop/bath">
             <button className={toggleActiveCategory(4)}  onClick={() => toggleCategory(4)}> Bath </button>
         </Link>
-        <Link to="/shop/kitchen">
-            <button className={toggleActiveCategory(5)}  onClick={() => toggleCategory(5)}> Kitchen </button>
+        <Link to="/shop/dining">
+            <button className={toggleActiveCategory(5)}  onClick={() => toggleCategory(5)}> Dining </button>
         </Link>
         <Link to="/shop/lighting">
             <button className={toggleActiveCategory(6)}  onClick={() => toggleCategory(6)}> Lighting </button>

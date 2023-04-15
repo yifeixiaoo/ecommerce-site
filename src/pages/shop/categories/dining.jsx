@@ -6,8 +6,8 @@ import "../shop.css"
 import shopCover from "../../../images/banner/shop-banner.avif"
 import { PRODUCT_CATEGORY } from "../../../products";
 
-export const Kitchen = () => {
-    const filteredProducts = PRODUCTS.filter((product) => product.productCategory === PRODUCT_CATEGORY.kitchen);
+export const Dining = () => {
+    const filteredProducts = PRODUCTS.filter((product) => product.productCategory === PRODUCT_CATEGORY.dining);
     return <div className="shop">
         <div className="container">
             <div className="shopCover">

@@ -39,6 +39,7 @@ export const ProductPage = () => {
                         </div>
                         <div className="product-right">
                             <h3 className="product-big-name"> {product.productName} </h3>
+                            <div className="product-description"> {product.description} </div>
                             <div className="product-quant">
                                 <p>Quantity</p>
                                 <div className="product-btns">
@@ -60,15 +61,15 @@ export const ProductPage = () => {
                     <div className="specifications">
                         <div className="spec">
                             <p className="spec-title">Texture:</p>
-                            <p className="title-desc">texture</p>
+                            <p className="title-desc"> {product.texture} </p>
                         </div>
                         <div className="spec">
                             <p className="spec-title">Weight:</p>
-                            <p className="title-desc">weight</p>
+                            <p className="title-desc"> {product.weight} </p>
                         </div>
                         <div className="spec">
-                            <p className="spec-title">Size:</p>
-                            <p className="title-desc">size</p>
+                            <p className="spec-title">Dimensions:</p>
+                            <p className="title-desc"> {product.dimensions} </p>
                         </div>
                     </div>
                 </div>

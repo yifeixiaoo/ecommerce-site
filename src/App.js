@@ -10,7 +10,7 @@ import { Lighting } from './pages/shop/categories/lighting';
 import { Living } from './pages/shop/categories/living';
 import { Bed } from './pages/shop/categories/bed';
 import { Bath } from './pages/shop/categories/bath';
-import { Kitchen } from './pages/shop/categories/kitchen';
+import { Dining } from './pages/shop/categories/dining';
 import { Seating } from './pages/shop/categories/seating';
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
             <Route path = "/shop/living" element={<Living />}/>
             <Route path = "/shop/bed" element={<Bed />}/>
             <Route path = "/shop/bath" element={<Bath />}/>
-            <Route path = "/shop/kitchen" element={<Kitchen />}/>
+            <Route path = "/shop/dining" element={<Dining />}/>
             <Route path = "/shop/lighting" element={<Lighting />}/>
             <Route path = "/shop/seating" element={<Seating />}/>
             <Route path = "/shop/product/:id" element={<ProductPage />}></Route>
