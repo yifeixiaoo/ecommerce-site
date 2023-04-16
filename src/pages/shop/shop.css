@@ -1,23 +1,7 @@
-  /*
-  .addToCartBttn {
-    background-color: transparent;
-    width: 50%;
-    height: 5.5rem;
-    border: none;
-    font-size: 1.6rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.2s;
+  .shop-container {
+    padding-bottom: 12rem;
   }
   
-  .addToCartBttn:hover {
-    background-color: rgb(19, 19, 19);
-    color: white;
-    cursor: pointer;
-  }
-   */
-
   /* shopCover */
   .shopCover {
     overflow: hidden;

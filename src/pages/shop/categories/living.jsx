@@ -5,17 +5,13 @@ import { CategoriesHeader } from "./categories-header";
 import "../shop.css"
 import shopCover from "../../../images/banner/shop-banner.avif"
 import { PRODUCT_CATEGORY } from "../../../products";
+import { ShopCover } from "../shopCover";
 
 export const Living = () => {
     const filteredProducts = PRODUCTS.filter((product) => product.productCategory === PRODUCT_CATEGORY.living);
     return <div className="shop">
         <div className="container">
-            <div className="shopCover">
-                <img src={shopCover} />
-                <div className="shopTitle">
-                    <h1> Minimal Living </h1>
-                </div>
-            </div>
+            <ShopCover title={"living"}/>
             <CategoriesHeader />
             <hr className="solid"></hr>
             <div className="products">

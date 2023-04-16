@@ -10,6 +10,43 @@
 
 .home-container {
     padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+/* home cover styling */
+.homeCover {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.homeCover img {
+    height: 100%;
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.homeCover .homeCoverText {
+    position: absolute;
+    left: 2rem;
+    bottom: 2rem;
+    text-align: left;
+
+}
+
+.homeCover .homeCoverText .title {
+    color: white;
+    font-size: 3.8rem;
+    font-weight: 600;
+}
+
+.homeCover .homeCoverText .description {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 .featured {
@@ -17,6 +54,8 @@
     position: relative;
     cursor: pointer;
 }
+
+/* grid styling */
 
 .main-description {
     position: absolute;
