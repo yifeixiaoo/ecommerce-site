@@ -5,6 +5,7 @@ import kitchen from "../../images/home/kitchen.jpg"
 import living from "../../images/home/living.jpg"
 import bath from "../../images/home/bath.jpg"
 import "./home.css"
+import { Footer } from "../../components/footer";
 
 export const Home = () => {
     return (
@@ -43,6 +44,7 @@ export const Home = () => {
               </div>
             </div>
           </div>
+          <Footer/>
         </>
       );
 };

@@ -5,6 +5,9 @@ import product4 from "./images/products/4.webp"
 import product5 from "./images/products/5.JPG"
 import product6 from "./images/products/6.webp"
 import product7 from "./images/products/7.jpg"
+import product8 from "./images/products/8.png"
+import product9 from "./images/products/9.png"
+import product10 from "./images/products/10.jpg"
 
 export const PRODUCT_CATEGORY = {
   living: "living",
@@ -85,12 +88,45 @@ export const PRODUCTS = [
       {
         id: 7,
         productName: "Modular Sofa Chair - Woven",
-        description: "This leather sofa chair adds style to any living room.",
+        description: "This woven sofa chair adds style to any living room.",
         price: 599,
         productImage: product7,
         productCategory: PRODUCT_CATEGORY.living,
         texture: "Woven",
         weight: "50kg",
         dimensions: "120cm x 120cm"
+      },
+      {
+        id: 8,
+        productName: "Mustard Table Lamp",
+        description: "This stylish table lamp enhances the mood throughout the home with a pop of color.",
+        price: 168,
+        productImage: product8,
+        productCategory: PRODUCT_CATEGORY.lighting,
+        texture: "Plastic",
+        weight: "5kg",
+        dimensions: "50cm x 27cm"
+      },
+      {
+        id: 9,
+        productName: "Woven Tower Lamp",
+        description: "This lamp spreads a warm light that creates cozy and playful shadows through the woven covering. Just as decorative in the window as on a shelf or bedside table.",
+        price: 189,
+        productImage: product9,
+        productCategory: PRODUCT_CATEGORY.lighting,
+        texture: "Woven",
+        weight: "4kg",
+        dimensions: "53cm x 24cm"
+      },
+      {
+        id: 10,
+        productName: "Classic Dining Table - Wood",
+        description: "The oak top layer enhances the plank feeling and details like the slanted table legs and dovetail joints give the table a crafted look",
+        price: 189,
+        productImage: product10,
+        productCategory: PRODUCT_CATEGORY.dining,
+        texture: "Wood",
+        weight: "60kg",
+        dimensions: "240cm x 160cm"
       },
 ]

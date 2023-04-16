@@ -5,6 +5,7 @@ import { CartItem } from "./cartItem";
 import "./cart.css"
 
 import { useNavigate } from "react-router-dom";
+import { Footer } from "../../components/footer";
 
 export const Cart = () => {
     const { cartItems, getTotalCartAmount } = useContext(ShopContext);
@@ -28,6 +29,7 @@ export const Cart = () => {
                 <button onClick={() => navigate("/shop")}> Continue Shopping </button>
                 <button> Checkout </button>
             </div>
+            <Footer/>
         </div>
       );
 };

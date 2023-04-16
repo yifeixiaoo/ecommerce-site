@@ -4,6 +4,7 @@ import { Product } from "./product";
 import { CategoriesHeader } from "./categories/categories-header";
 import "./shop.css"
 import { ShopCover } from "./shopCover";
+import { Footer } from "../../components/footer";
 
 export const Shop = () => {
     return <div className="shop">
@@ -17,5 +18,6 @@ export const Shop = () => {
                 ))}
             </div>
         </div>
+        <Footer/>
     </div>
 };

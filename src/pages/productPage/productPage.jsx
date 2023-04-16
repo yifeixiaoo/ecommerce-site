@@ -4,6 +4,7 @@ import img1 from "../../images/products/1.png"
 import { useParams } from "react-router-dom";
 import { PRODUCTS } from "../../products";
 import { ShopContext } from "../../context/shop-context";
+import { Footer } from "../../components/footer";
 
 
 export const ProductPage = () => {
@@ -74,6 +75,7 @@ export const ProductPage = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </>
     );
 };
