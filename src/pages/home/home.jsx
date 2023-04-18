@@ -7,6 +7,7 @@ import bath from "../../images/home/bath.jpg"
 import "./home.css"
 import homeCover from "../../images/home/homeCover.webp"
 import { Footer } from "../../components/footer";
+import { ProductSlider } from "../../components/productSlider";
 
 export const Home = () => {
   return (
@@ -52,6 +53,7 @@ export const Home = () => {
               </Link>
             </div>
           </div>
+          <ProductSlider/>
         </div>
       </div>
       <Footer />

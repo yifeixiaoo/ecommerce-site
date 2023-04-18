@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 import { PRODUCTS } from "../../products";
 import { ShopContext } from "../../context/shop-context";
 import { Footer } from "../../components/footer";
+import { ProductSlider } from "../../components/productSlider";
 
 
 export const ProductPage = () => {
@@ -73,6 +74,7 @@ export const ProductPage = () => {
                             <p className="title-desc"> {product.dimensions} </p>
                         </div>
                     </div>
+                    <ProductSlider />
                 </div>
             </div>
             <Footer/>

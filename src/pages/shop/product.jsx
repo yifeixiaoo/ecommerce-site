@@ -6,7 +6,7 @@ export const Product = (props) => {
     const { id, productName, price, productImage } = props.data;
     return (
         <div key={id} className="product">
-            <Link
+            {/* <Link
                 onClick={() => window.top(0, 0)}
                 to={`/shop/product/${id}`}
             >
@@ -17,7 +17,15 @@ export const Product = (props) => {
                     <p>{productName}</p>
                     <p className="item-price">${price}</p>
                 </div>
-            </Link>
+            </Link> */}
+            <Link onClick={() => window.top(0, 0)}
+                        to={`/shop/product/${id}`}>
+                        <div className="card">
+                            <img className="product--image" src={productImage} />
+                            <h3> {productName} </h3>
+                            <p className="price"> ${price} </p>
+                        </div>
+                    </Link>
         </div>
     );
 }

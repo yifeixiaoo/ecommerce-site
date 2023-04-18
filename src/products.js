@@ -54,7 +54,7 @@ export const PRODUCTS = [
       },
       {
         id: 4,
-        productName: "Marble Bath Vanity",
+        productName: "Marble Vanity",
         description: "A simple and stylish bath vanity makes it easy to start fresh with a new bathroom solution.",
         price: 850,
         productImage: product4,
@@ -65,7 +65,7 @@ export const PRODUCTS = [
       },
       {
         id: 5,
-        productName: "Soft Fabric Office Chair",
+        productName: "Fabric Office Chair",
         description: "The soft fabric office chair can be adjusted in height, so you can adapt it to your height. The castors are rubber coated to run smoothly on any kind of floor and have a pressure-sensitive brake mechanism.",
         price: 129,
         productImage: product5,
@@ -76,7 +76,7 @@ export const PRODUCTS = [
       },
       {
         id: 6,
-        productName: "Modular Sofa Chair - Leather",
+        productName: "Leather Sofa Chair",
         description: "This leather sofa chair adds style to any living room.",
         price: 699,
         productImage: product6,
@@ -87,7 +87,7 @@ export const PRODUCTS = [
       },
       {
         id: 7,
-        productName: "Modular Sofa Chair - Woven",
+        productName: "Woven Sofa Chair",
         description: "This woven sofa chair adds style to any living room.",
         price: 599,
         productImage: product7,
@@ -98,7 +98,7 @@ export const PRODUCTS = [
       },
       {
         id: 8,
-        productName: "Mustard Table Lamp",
+        productName: "Mustard Lamp",
         description: "This stylish table lamp enhances the mood throughout the home with a pop of color.",
         price: 168,
         productImage: product8,
@@ -120,7 +120,7 @@ export const PRODUCTS = [
       },
       {
         id: 10,
-        productName: "Classic Dining Table - Wood",
+        productName: "Oak Dining Table",
         description: "The oak top layer enhances the plank feeling and details like the slanted table legs and dovetail joints give the table a crafted look",
         price: 189,
         productImage: product10,
