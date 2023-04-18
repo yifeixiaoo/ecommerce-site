@@ -117,6 +117,14 @@
     background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
+/* bottom text styling */
+
+.conclusion {
+    text-align: left;
+    padding-top: 5rem;
+    font-size: 1.4rem;
+}
+
 @media (max-width:750px) {
     .grid-container {
         height: 500px;

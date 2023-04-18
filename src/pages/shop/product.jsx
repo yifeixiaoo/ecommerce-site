@@ -6,19 +6,7 @@ export const Product = (props) => {
     const { id, productName, price, productImage } = props.data;
     return (
         <div key={id} className="product">
-            {/* <Link
-                onClick={() => window.top(0, 0)}
-                to={`/shop/product/${id}`}
-            >
-                <div className="product-header">
-                    <img src={productImage} alt="product1" />
-                </div>
-                <div className="product-details">
-                    <p>{productName}</p>
-                    <p className="item-price">${price}</p>
-                </div>
-            </Link> */}
-            <Link onClick={() => window.top(0, 0)}
+            <Link onClick={() => window.scrollTo(0, 0)}
                         to={`/shop/product/${id}`}>
                         <div className="card">
                             <img className="product--image" src={productImage} />

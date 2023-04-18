@@ -30,7 +30,7 @@ export const ProductSlider = () => {
             <h1> Featured Items </h1>
             <Carousel responsive={responsive}>
                 {PRODUCTS.map((product) => (
-                    <Link onClick={() => window.top(0, 0)}
+                    <Link onClick={() => window.scrollTo(0, 0)}
                         to={`/shop/product/${product.id}`}>
                         <div className="card">
                             <img className="product--image" src={product.productImage} />
