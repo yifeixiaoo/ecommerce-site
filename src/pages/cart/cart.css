@@ -7,7 +7,8 @@
 }
 
 
-/* left side */
+
+
 .cart-div {
   /* height: 100%; */
   margin-bottom: 10rem;
@@ -16,8 +17,14 @@
   position: relative;
 }
 
+/* left side */
+
+.cartItems{
+  width:70%;
+}
+
 .cartItem {
-  width: 700px;
+  width: 90%;
   height: 250px;
   display: flex;
 
@@ -37,10 +44,43 @@
   font-size: 30px;
 }
 
+/* increase/decrease item quantity*/
+
 .countHandler input {
   width: 40px;
   text-align: center;
   font-weight: bolder;
+}
+
+.countHandler button {
+  font-size: 3rem;
+  width: 5.5rem;
+  height: 5.5rem;
+  color: black;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  transition: all 0.2s;
+}
+
+.countHandler button:first-child {
+  border-right: 1px solid black;
+}
+
+.countHandler button:last-child {
+  border-left: 1px solid black;
+}
+
+.countHandler button:hover {
+  background-color: transparent;
+}
+
+.countHandler p {
+  outline-offset: -2px;
+  width: 6rem;
+  height: 5rem;
+  text-align: center;
+  padding-top: 10px;
 }
 
 
@@ -49,7 +89,7 @@
 .checkout {
   border: 2px solid black !important;
   padding: 0 2rem 0 2rem;
-  width: 100%;
+  width: 30%;
   height: 400px;
   text-align: left;
   min-width: 292px;
@@ -111,4 +151,23 @@
 .co-btn:hover {
   background-color: transparent;
   color: #4D7E3E;
+}
+
+
+@media (max-width:850px) {
+  .cart-div {
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+      margin-bottom: 6rem;
+
+  }
+
+  .checkout {
+      width: 100%;
+  }
+
+  .cartItems{
+      width: 100%;
+  }
 }
