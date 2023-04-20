@@ -1,5 +1,6 @@
   .shop-container {
     padding-bottom: 12rem;
+    padding-top: 8rem;
   }
   
   /* shopCover */
@@ -7,6 +8,10 @@
     overflow: hidden;
     position: relative;
     cursor: pointer;
+  }
+
+  .shopCover h2{
+    color: black
   }
 
 
@@ -55,7 +60,7 @@
   /* separator */
 
   .solid {
-    border-top: 3px solid #bbb;
+    border-top: 1px solid #bbb;
   }
 
   /* shop grid */

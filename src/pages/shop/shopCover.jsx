@@ -7,7 +7,7 @@ export const ShopCover = ({title}) => {
     return <div className="shopCover">
         <img src={shopCover} />
         <div className="shopTitle">
-            <h1> Minimal {title} </h1>
+            <h2> Minimal {title} </h2>
         </div>
     </div>
 
