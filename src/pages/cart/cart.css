@@ -87,7 +87,7 @@
 /* right side */
 
 .checkout {
-  border: 2px solid black !important;
+  background-color: rgb(245,245,245);
   padding: 0 2rem 0 2rem;
   width: 30%;
   height: 400px;

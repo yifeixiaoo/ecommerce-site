@@ -3,7 +3,7 @@ import { PRODUCTS } from "../../products";
 import { ShopContext } from "../../context/shop-context";
 import { CartItem } from "./cartItem";
 import "./cart.css"
-
+import { ProductSlider } from "../../components/productSlider";
 import { useNavigate } from "react-router-dom";
 import { Footer } from "../../components/footer";
 
@@ -49,6 +49,8 @@ export const Cart = () => {
                             </div>
                         </div>
                     </div>
+
+                    <ProductSlider />
                 </div>
             </div>
             <Footer />
