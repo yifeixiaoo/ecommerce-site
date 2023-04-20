@@ -14,6 +14,10 @@
 }
 
 /* home cover styling */
+.homeCover-container{
+    padding-bottom: 4rem;
+}
+
 .homeCover {
     overflow: hidden;
     position: relative;
@@ -95,26 +99,25 @@
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease-in;
 }
 
 
 
 #img1:hover {
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #img2:hover {
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #img3:hover {
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #img4:hover {
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* bottom text styling */

@@ -113,7 +113,7 @@
 
 .atc-btn {
     background-color: transparent;
-    border: 2px solid black !important;
+    border: 2px solid black;
 }
 
 .atc-btn:hover {
