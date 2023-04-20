@@ -15,15 +15,34 @@
 }
 
 .filter-btns {
-    justify-content: center;
+    justify-content: left;
     display: flex;
     gap: 1rem;
     width: 100%;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: left;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    padding-left: 2rem;
     
+}
+
+.filter-btns button {
+    font-size: 1.2rem;
+    line-height: 1.4285714286;
+    font-weight: bold;
+    text-align: center;
+    display: inline-flex;
+    outline: 0;
+    vertical-align: top;
+    border-radius: 64px;
+    justify-content: center;
+    align-items: center;
+    min-height: 3.5rem;
+    padding: 0 2rem;
+    color: rgb(var(--colour-text-and-icon-1, 17, 17, 17));
+    background: rgb(var(--colour-interactive-secondary-bg-default, 245, 245, 245));
+    border: 1px solid rgba(0, 0, 0, .205);
 }
 
 .untoggled {
@@ -43,7 +62,7 @@
 }
 
 .filter-btns button:hover {
-    border: 2px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, .7);
 }
 
 .title-home {
