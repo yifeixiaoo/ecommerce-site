@@ -7,8 +7,6 @@
 }
 
 
-
-
 .cart-div {
   /* height: 100%; */
   margin-bottom: 10rem;
@@ -54,31 +52,24 @@
 
 .countHandler button {
   font-size: 3rem;
-  width: 5.5rem;
-  height: 5.5rem;
+  width: 4rem;
+  height: 4rem;
   color: black;
   cursor: pointer;
   background-color: white;
   border: none;
   transition: all 0.2s;
 }
-
-.countHandler button:first-child {
-  border-right: 1px solid black;
-}
-
-.countHandler button:last-child {
-  border-left: 1px solid black;
-}
-
 .countHandler button:hover {
-  background-color: transparent;
+  background-color: grey;;
 }
 
-.countHandler p {
+.countHandler input {
+  font-size: 1.8rem;
+  border-color: black;
   outline-offset: -2px;
-  width: 6rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   text-align: center;
   padding-top: 10px;
 }
