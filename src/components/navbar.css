@@ -39,6 +39,12 @@
     transition: all 0.3s ease 0s;
   }
 
-  .nav__links li Link:hover {
-    color: rgb(168, 121, 121);
+  .nav__links .nav_link {
+    font-size: 25px;
   }
+
+  .nav__links .nav_link:hover {
+    color: #4D7E3E;
+  }
+
+ 
