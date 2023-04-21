@@ -49,7 +49,7 @@ export const ProductPage = () => {
                                     <p className="quantity"> {quantity} </p>
                                     <button onClick={increaseQuantity}>+</button>
                                 </div>
-                                <p className="product-price"> ${product.price * quantity} </p>
+                                <p className="product-price"> ${product.price * quantity}.00 </p>
                             </div>
                             <div className="atc-buy">
                                 <button className="atc-btn" onClick={() => addToCart(id, quantity)}>
