@@ -8,7 +8,7 @@ export const Footer = () => {
                 <div class="container">
                     <div class="row">
                         <div class="footer-col">
-                            <h4>Minishop</h4>
+                            <h4>MODA</h4>
                             <ul>
                                 <li><a href="#">about us</a></li>
                                 <li><a href="#">careers</a></li>

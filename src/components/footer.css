@@ -48,7 +48,7 @@ ul{
 	transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-	color: green;
+	color: #128482;
 }
 /*responsive*/
 @media(max-width: 767px){

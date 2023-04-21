@@ -6,7 +6,7 @@ import product5 from "./images/products/5.JPG"
 import product6 from "./images/products/6.webp"
 import product7 from "./images/products/7.jpg"
 import product8 from "./images/products/8.png"
-import product9 from "./images/products/9.png"
+import product9 from "./images/products/9.jpg"
 import product10 from "./images/products/10.jpg"
 
 export const PRODUCT_CATEGORY = {
