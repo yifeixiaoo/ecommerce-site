@@ -11,7 +11,9 @@
   }
 
   .shopCover h2{
-    color: #128482;
+    color: white;
+    font-weight: 400;
+    font-size: 4.2rem;
   }
 
 
@@ -27,9 +29,8 @@
     position: absolute;
     bottom: 2rem;
     left: 2rem;
+    text-align: left;
     color: white;
-    font-size: 3.8rem;
-    font-weight: 600;
   }
 
   /* individual product shop tile */
