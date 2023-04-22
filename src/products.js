@@ -15,6 +15,11 @@ import product14 from "./images/products/14.webp"
 import product15 from "./images/products/15.jpg"
 import product16 from "./images/products/16.jpeg"
 import product17 from "./images/products/17.jpg"
+import product18 from "./images/products/18.webp"
+import product19 from "./images/products/19.webp"
+import product20 from "./images/products/20.png"
+import product21 from "./images/products/21.jpg"
+import product22 from "./images/products/22.jpg"
 
 export const PRODUCT_CATEGORY = {
   living: "living",
@@ -212,5 +217,60 @@ export const PRODUCTS = [
         texture: "Wood",
         weight: "103kg",
         dimensions: "247cm x 160cm"
+      },
+      {
+        id: 18,
+        productName: "Leather Executive Chair",
+        description: "Our Leather Executive Chair offers comfort and function when you’re working at the desk. It’s also elegant, generous and blends easily with your living room or bedroom decor.",
+        price: 198,
+        productImage: product18,
+        productCategory: PRODUCT_CATEGORY.seating,
+        texture: "Leather",
+        weight: "29kg",
+        dimensions: "98cm x 54cm"
+      },
+      {
+        id: 19,
+        productName: "Oak Vanity",
+        description: "A bold expression made with a minimally treated red oak finish. This solution covers your essential needs from hidden drawers to a water-saving faucet. An easy match with many colours and styles.",
+        price: 476,
+        productImage: product19,
+        productCategory: PRODUCT_CATEGORY.bath,
+        texture: "Wood",
+        weight: "45kg",
+        dimensions: "78cm x 73cm"
+      },
+      {
+        id: 20,
+        productName: "Platform Bed Frame",
+        description: "A sleek and refined oak finish that keeps the bedroom minimal. The Platform bed frame comes paired with six drawers that makes getting ready in the morning a breeze.",
+        price: 489,
+        productImage: product20,
+        productCategory: PRODUCT_CATEGORY.bed,
+        texture: "Wood",
+        weight: "88kg",
+        dimensions: "210cm x 170cm"
+      },
+      {
+        id: 21,
+        productName: "Basic Desk Lamp",
+        description: "Metal construction that comes together for a timeless design. The Basic desk lamp is built to last and will remain reliable for years to come.",
+        price: 29,
+        productImage: product21,
+        productCategory: PRODUCT_CATEGORY.lighting,
+        texture: "Metal",
+        weight: "10kg",
+        dimensions: "53cm x 29cm"
+      },
+      {
+        id: 22,
+        productName: "Noir Dining Set",
+        description: "A durable dining set that makes it easy to have big dinners indoors or outdoors.",
+        price: 799,
+        productImage: product22,
+        productCategory: PRODUCT_CATEGORY.dining,
+        texture: "Metal",
+        weight: "130kg",
+        dimensions: "220cm x 160cm"
       },
 ]

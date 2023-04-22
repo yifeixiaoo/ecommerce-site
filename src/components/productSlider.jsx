@@ -24,12 +24,14 @@ const responsive = {
     }
 };
 
+const featured = [PRODUCTS[0], PRODUCTS[19], PRODUCTS[16], PRODUCTS[12], PRODUCTS[21], PRODUCTS[20], PRODUCTS[2], PRODUCTS[8]]
+
 export const ProductSlider = () => {
     return (
         <div className="productSlider">
             <h1> Featured Items </h1>
             <Carousel responsive={responsive}>
-                {PRODUCTS.map((product) => (
+                {featured.map((product) => (
                     <Link onClick={() => window.scrollTo(0, 0)}
                         to={`/shop/product/${product.id}`}>
                         <div className="card">
