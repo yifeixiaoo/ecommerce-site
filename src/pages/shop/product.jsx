@@ -1,5 +1,4 @@
-import React, { useContext } from "react";
-import { ShopContext } from '../../context/shop-context';
+import React from "react";
 import { Link } from "react-router-dom";
 
 export const Product = (props) => {
@@ -9,7 +8,7 @@ export const Product = (props) => {
             <Link onClick={() => window.scrollTo(0, 0)}
                         to={`/shop/product/${id}`}>
                         <div className="card">
-                            <img className="product--image" src={productImage} />
+                            <img className="product--image" src={productImage} alt="product"/>
                             <h3> {productName} </h3>
                             <p className="price"> ${price} </p>
                         </div>

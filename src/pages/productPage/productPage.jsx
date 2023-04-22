@@ -1,6 +1,5 @@
 import React, { useContext, useState } from "react";
 import "./productPage.css"
-import img1 from "../../images/products/1.png"
 import { useParams } from "react-router-dom";
 import { PRODUCTS } from "../../products";
 import { ShopContext } from "../../context/shop-context";

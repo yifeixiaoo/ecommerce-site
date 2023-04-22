@@ -35,7 +35,7 @@ export const ProductSlider = () => {
                     <Link onClick={() => window.scrollTo(0, 0)}
                         to={`/shop/product/${product.id}`}>
                         <div className="card">
-                            <img className="product--image" src={product.productImage} />
+                            <img className="product--image" src={product.productImage} alt="featured item" />
                             <h3> {product.productName} </h3>
                             <p className="price"> ${product.price} </p>
                         </div>

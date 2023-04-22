@@ -6,7 +6,7 @@ import modaLogo from "../images/logos/moda-high-resolution-logo-color-on-transpa
 
 export const Navbar = () => {
     return <header>
-        <Link to="/"> <img src={modaLogo} alt="logo" className="logo-img"/> </Link>
+        <Link to="/"> <img src={modaLogo} alt="moda logo" className="logo-img"/> </Link>
         <nav>
             <ul className="nav__links">
                 <li><Link className="nav_link" to="/shop"> Shop </Link></li>

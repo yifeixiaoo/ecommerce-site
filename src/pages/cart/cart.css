@@ -1,14 +1,10 @@
 .cart-container {
-  /* flex-direction: column;
-  justify-content: left;
-  align-items: left; */
   padding-top: 5rem;
   padding-bottom: 10rem;
 }
 
 
 .cart-div {
-  /* height: 100%; */
   margin-bottom: 10rem;
   width: 100%;
   display: flex;

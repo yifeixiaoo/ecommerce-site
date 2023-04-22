@@ -13,28 +13,28 @@ export const Grid = () => {
                 <div className="featured grid-one">
                     <Link to="/shop/lighting">
                         <div id="img1" className="lil-overlay"></div>
-                        <img src={lighting} alt="img1" />
+                        <img src={lighting} alt="lighting" />
                         <p className="main-description">Lighting</p>
                     </Link>
                 </div>
                 <div className="featured grid-two">
                     <Link to="/shop/dining">
                         <div id="img2" className="lil-overlay"></div>
-                        <img src={kitchen} alt="img2" />
+                        <img src={kitchen} alt="dining" />
                         <p className="main-description">Dining</p>
                     </Link>
                 </div>
                 <div className="featured grid-four">
                     <Link to="/shop/living">
                         <div id="img3" className="lil-overlay"></div>
-                        <img src={living} alt="img3" />
+                        <img src={living} alt="living" />
                         <p className="main-description">Living</p>
                     </Link>
                 </div>
                 <div className="featured grid-four-low">
                     <Link to="/shop/bath">
                         <div id="img4" className="lil-overlay"></div>
-                        <img src={bath} alt="img4" />
+                        <img src={bath} alt="bathing" />
                         <p className="main-description">Bath</p>
                     </Link>
                 </div>
