@@ -1,159 +1,155 @@
 .grid-container {
-    display: grid;
-    height: 50rem;
-    grid-template-columns: 1fr 1fr 2fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 'one two four' 'one two four-low';
-    gap: 1.3rem;
-    margin-top: 1.3rem;
+  display: grid;
+  height: 50rem;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "one two four" "one two four-low";
+  gap: 1.3rem;
+  margin-top: 1.3rem;
 }
 
 .home-container {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
 }
 
 /* home cover styling */
-.homeCover-container{
-    padding-bottom: 4rem;
+.homeCover-container {
+  padding-bottom: 4rem;
 }
 
 .homeCover {
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
 }
 
-
 .homeCover img {
-    height: 100%;
-    width: 100%;
-    max-height: 600px;
-    object-fit: cover;
-    object-position: 50% 50%;
+  height: 100%;
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 .homeCover .homeCoverText {
-    position: absolute;
-    left: 2rem;
-    bottom: 2rem;
-    text-align: left;
-
+  position: absolute;
+  left: 2rem;
+  bottom: 2rem;
+  text-align: left;
 }
 
 .homeCover .homeCoverText .title {
-    color: white;
-    font-size: 3.8rem;
-    font-weight: 600;
+  color: white;
+  font-size: 3.8rem;
+  font-weight: 600;
 }
 
 .homeCover .homeCoverText .description {
-    color: white;
-    font-size: 2rem;
-    font-weight: 600;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .featured {
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
 }
 
 /* grid styling */
 
 .main-description {
-    position: absolute;
-    bottom: 2rem;
-    left: 2rem;
-    color: white;
-    font-size: 3.8rem;
-    font-weight: 600;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  color: white;
+  font-size: 3.8rem;
+  font-weight: 600;
 }
 
 .featured img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: 50% 50%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 .grid-one {
-    grid-area: one;
+  grid-area: one;
 }
 
 .grid-two {
-    grid-area: two;
+  grid-area: two;
 }
 
 .grid-four {
-    grid-area: four;
+  grid-area: four;
 }
 
 .grid-four-low {
-    grid-area: four-low;
+  grid-area: four-low;
 }
 
 .lil-overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    transition: all 0.3s ease-in;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: all 0.3s ease-in;
 }
 
-
-
 #img1:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #img2:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #img3:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #img4:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* bottom text styling */
 
 .conclusion {
-    text-align: left;
-    padding-top: 5rem;
-    font-size: 1.4rem;
+  text-align: left;
+  padding-top: 5rem;
+  font-size: 1.4rem;
 }
 
-@media (max-width:750px) {
-    .grid-container {
-        height: 500px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-areas:
-            "one two"
-            "four four-low";
-        grid-gap: 13px;
-        gap: 13px;
-    }
+@media (max-width: 750px) {
+  .grid-container {
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "one two"
+      "four four-low";
+    grid-gap: 13px;
+    gap: 13px;
+  }
 }
 
-@media (max-width:450px) {
-    .main-description {
-        bottom: 1rem;
-        left: 1rem;
-        font-size: 3rem;
-    }
+@media (max-width: 450px) {
+  .main-description {
+    bottom: 1rem;
+    left: 1rem;
+    font-size: 3rem;
+  }
 }
 
-@media (max-width:400px) {
-    .main-description {
-        bottom: 1rem;
-        left: 0.5rem;
-        font-size: 2.5rem;
-    }
+@media (max-width: 400px) {
+  .main-description {
+    bottom: 1rem;
+    left: 0.5rem;
+    font-size: 2.5rem;
+  }
 }
