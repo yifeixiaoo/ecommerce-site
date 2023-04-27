@@ -13,6 +13,12 @@ import { Bath } from "./pages/shop/categories/bath";
 import { Dining } from "./pages/shop/categories/dining";
 import { Seating } from "./pages/shop/categories/seating";
 
+//TODO:
+// - remove footer from all components and only add to app.js
+// - look into ecommerce apis for catalog items
+// - potentially refactor all category pages into single component with parameters
+// - potentially add lazy loading or code splitting
+
 function App() {
   return (
     <div className="App">
