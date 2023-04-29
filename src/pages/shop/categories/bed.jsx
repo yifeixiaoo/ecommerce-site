@@ -3,7 +3,6 @@ import { PRODUCTS } from "../../../products";
 import { Product } from "../product";
 import { CategoriesHeader } from "./categories-header";
 import "../shop.css";
-import { Footer } from "../../../components/footer";
 import { PRODUCT_CATEGORY } from "../../../products";
 import { ShopCover } from "../shopCover";
 
@@ -25,7 +24,6 @@ export const Bed = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

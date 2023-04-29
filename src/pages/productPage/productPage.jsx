@@ -3,7 +3,6 @@ import "./productPage.css";
 import { useParams } from "react-router-dom";
 import { PRODUCTS } from "../../products";
 import { ShopContext } from "../../context/shop-context";
-import { Footer } from "../../components/footer";
 import { ProductSlider } from "../../components/productSlider";
 
 export const ProductPage = () => {
@@ -81,7 +80,6 @@ export const ProductPage = () => {
           <ProductSlider />
         </div>
       </div>
-      <Footer />
     </>
   );
 };

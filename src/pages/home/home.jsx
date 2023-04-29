@@ -3,7 +3,6 @@ import "./home.css";
 import { HomeCover } from "../../components/homeCover";
 import { Grid } from "../../components/grid";
 import { ProductSlider } from "../../components/productSlider";
-import { Footer } from "../../components/footer";
 import { Conclusion } from "../../components/conclusion";
 
 export const Home = () => {
@@ -17,7 +16,6 @@ export const Home = () => {
           <Conclusion />
         </div>
       </div>
-      <Footer />
     </>
   );
 };

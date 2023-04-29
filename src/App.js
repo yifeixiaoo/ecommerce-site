@@ -1,6 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/navbar";
+import { Footer } from "./components/footer";
 import { Shop } from "./pages/shop/shop";
 import { Cart } from "./pages/cart/cart";
 import { Home } from "./pages/home/home";
@@ -14,7 +15,7 @@ import { Dining } from "./pages/shop/categories/dining";
 import { Seating } from "./pages/shop/categories/seating";
 
 //TODO:
-// - remove footer from all components and only add to app.js
+// - add cart count in navbar
 // - look into ecommerce apis for catalog items
 // - potentially refactor all category pages into single component with parameters
 // - potentially add lazy loading or code splitting
@@ -37,6 +38,7 @@ function App() {
             <Route path="/shop/product/:id" element={<ProductPage />}></Route>
             <Route path="/cart" element={<Cart />} />
           </Routes>
+          <Footer />
         </Router>
       </ShopContextProvider>
     </div>

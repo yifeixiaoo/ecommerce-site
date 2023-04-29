@@ -5,7 +5,6 @@ import { CategoriesHeader } from "./categories-header";
 import "../shop.css";
 import { PRODUCT_CATEGORY } from "../../../products";
 import { ShopCover } from "../shopCover";
-import { Footer } from "../../../components/footer";
 
 export const Bath = () => {
   const filteredProducts = PRODUCTS.filter(
@@ -25,7 +24,6 @@ export const Bath = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
